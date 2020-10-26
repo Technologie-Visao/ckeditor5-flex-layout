@@ -1,0 +1,13 @@
+.ck-content .ck-layout-columns {
+  display: flex;
+}
+
+.ck-content .ck-layout-columns > div {
+  flex-grow:   1;
+  flex-shrink: 1;
+  flex-basis:  100%;
+}
+
+.ck-content .ck-layout-columns.ck-widget > div {
+  border: 1px dotted #e6e6e6;
+}
