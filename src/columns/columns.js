@@ -1,5 +1,5 @@
-import {toWidget} from "@ckeditor/ckeditor5-widget/src/utils";
-import ButtonView from "@ckeditor/ckeditor5-ui/src/button/buttonview";
+import { toWidget } from "ckeditor5/src/widget";
+import { ButtonView } from "@ckeditor/ckeditor5-ui";
 
 import BaseLayout from "../base-layout";
 import {createLayoutEditable} from "../editable";

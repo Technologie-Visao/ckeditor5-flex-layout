@@ -1,5 +1,5 @@
-import {toWidgetEditable} from "@ckeditor/ckeditor5-widget/src/utils";
-import Plugin from "@ckeditor/ckeditor5-core/src/plugin";
+import { Plugin } from 'ckeditor5/src/core';
+import { toWidgetEditable } from 'ckeditor5/src/widget';
 
 export default class LayoutEditable extends Plugin
 {

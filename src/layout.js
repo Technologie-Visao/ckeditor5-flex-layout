@@ -1,5 +1,5 @@
-import Plugin from '@ckeditor/ckeditor5-core/src/plugin'
-import ColumnLayout from './columns/columns'
+import { Plugin } from 'ckeditor5/src/core';
+import ColumnLayout from './columns/columns';
 import LayoutUI from "./layoutui";
 
 export default class Layout extends Plugin

@@ -1,6 +1,6 @@
-import Plugin from "@ckeditor/ckeditor5-core/src/plugin";
+import { Plugin } from 'ckeditor5/src/core';
+import { addToolbarToDropdown, createDropdown } from 'ckeditor5/src/ui';
 import LayoutIcon from "../theme/icons/layout.svg";
-import {addToolbarToDropdown, createDropdown} from "@ckeditor/ckeditor5-ui/src/dropdown/utils";
 import Layout from "./layout";
 
 const LAYOUT_DROPDOWN = 'layout';

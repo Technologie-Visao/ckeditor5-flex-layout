@@ -1,6 +1,6 @@
-import Command from "@ckeditor/ckeditor5-core/src/command";
-import {findOptimalInsertionPosition} from "@ckeditor/ckeditor5-widget/src/utils";
-import {createColumnLayout} from "./columns";
+import { Command } from 'ckeditor5/src/core';
+import { findOptimalInsertionPosition } from 'ckeditor5/src/widget';
+import { createColumnLayout } from "./columns";
 
 export default class LayoutColumnCommand extends Command
 {
