@@ -1,5 +1,5 @@
 import LayoutEditable from "./editable";
-import Plugin from "@ckeditor/ckeditor5-core/src/plugin";
+import { Plugin } from 'ckeditor5/src/core';
 
 export default class BaseLayout extends Plugin
 {
