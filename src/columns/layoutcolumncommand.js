@@ -1,5 +1,5 @@
 import { Command } from 'ckeditor5/src/core';
-import { findOptimalInsertionPosition } from 'ckeditor5/src/widget';
+import { findOptimalInsertionRange } from 'ckeditor5/src/widget';
 import { createColumnLayout } from "./columns";
 
 export default class LayoutColumnCommand extends Command
@@ -9,7 +9,7 @@ export default class LayoutColumnCommand extends Command
     const model = this.editor.model;
     const selection = model.document.selection;
 
-    const insertPosition = findOptimalInsertionPosition(selection, model);
+    const insertPosition = findOptimalInsertionRange(selection, model);
     model.change(
       writer =>
       {
